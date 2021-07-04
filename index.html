@@ -5,39 +5,148 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="./styles/style.css">
   <title>My Resume Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body class="bg-yellow-300">
+<body class="bg-local" style="background-image:url(picture/bg.gif)">
   <!--navbar-->
-  <div class="bg-yellow-100 border-b-2 py-4 mb-4">
-    <div class="bg-yellow-100  flex max-w-screen-xl mx-auto">
-      <div class="flex space-x-10 space-y-2">
-        <!--link botton-->
-        <img class="w-10 h-10 " src="picture/logo.png">
-        <a href="URL"><p>Home</p></a>
-        <a href="URL"><p>Experience</p></a>
-        <a href="URL"><p>Contract</p></a>
+  <div class="bg-yellow-100 bg-opacity-75 border-b-2 py-4 mb-4">
+    <div class="bg-yellow-100 bg-opacity-0 flex justify-between max-w-screen-xl mx-auto">
+      <img class="w-10 h-10 " src="picture/logo.png">
+      <!--link botton-->
+      <div class="flex space-x-10">
+        <a href="URL"><b class="text-xl text-yellow-900" style="font-family: 'Righteous', cursive;">Home</b></a>
+        <a href="URL"><b class="text-xl text-yellow-900" style="font-family: 'Righteous', cursive;">Experience</b></a>
+        <a href="URL"><b class="text-xl text-yellow-900" style="font-family: 'Righteous', cursive;">Contract</b></a>
       </div>
     </div>
   </div>
-  <div class="space-y-5">
-    <!--intel-->
-    <div class="bg-yellow-100 max-w-screen-xl mx-auto shadow-lg rounded-xl">
-      <!--puitext in middle-->
-      <div class="flex justify-between max-w-screen-md mx-auto">
-        <div class="flex p-4">
-          <img class="w-40 h-40 rounded-full" src="picture/รูปเกม.jpg">
-            <!--header-->
-            <div class="p-4">
-              <p class="font-size: 40px">Mr.Winnapat Kaewmora</p>
 
+  <div class="space-y-5">
+      <!--intel-->-
+      <div class="bg-yellow-100 bg-opacity-75 max-w-screen-md mx-auto flex justify-between rounded-t-xl">
+        <!--puitext in middle-->
+        <div class="flex max-w-screen-md mx-auto">
+          <div class="flex p-5">
+          <img class="w-80 h-40 rounded-2xl" src="picture/รูปเกม.jpg">
+          </div>
+          <div class="flex p-5">
+            <!--header-->
+            <div class="p-5">
+              <div class="grid grid-cols-1 divide-y divide-yellow-500 md:divide-y-4">
+                <div class="text-4xl font-extrabold " style="font-family: 'Righteous', cursive;">
+                  <span class="bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-green-500">
+                    Winnapat kaewmora
+                  </span>
+                </div>
+              <p class="text-yellow-800" style="font-family: 'Righteous', cursive;">Hi,my name is Winnapat.I study Computer Engineering at Chiangmai University.I hope someday i will be a GOD PROGRAMER.</p>
+              </div>
             </div>
-          
+          </div>
         </div>
       </div>
-    </div>
+
+      <!--my skill bar-->
+      <div class="bg-yellow-100 bg-opacity-75 max-w-screen-md mx-auto flex justify-between rounded-b-xl">
+        <div class="p-5">
+          <div class="text-2xl font-extrabold" style="font-family: 'Righteous', cursive;">
+            <span class="bg-clip-text text-transparent bg-gradient-to-r from-yellow-900 to-black">
+              myskill
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!--skill bar-->
+      <div class="bg-yellow-100 bg-opacity-0 max-w-screen-md mx-auto flex justify-between rounded-xl">
+        <div class=" space-y-10">
+          
+          <!--head skill-->
+          <div class="flex space-x-8">
+            <!--blank-->
+            <div class="flex space-x-2">
+              <div>
+                <b class="text-xl text-yellow-600 bg-yellow-100 bg-opacity-75 p-1 rounded-xl" style="font-family: 'Righteous', cursive;">Programming</b>
+              </div>
+
+              <!--skill-->
+              <div class="bg-yellow-100 bg-opacity-75 rounded-xl p-2">
+                <img src="/picture/c++.png" class="w-20 h-20">
+                <p class="text-center text-xl" style="font-family: 'Righteous', cursive;">c++</p>
+              </div>
+            </div>
+          </div>
+
+          <!--head skill-->
+          <div class="flex space-x-8">
+            <!--blank-->
+            <div class="flex space-x-14">
+              <div>
+                <b class="text-xl text-yellow-600 bg-yellow-100 bg-opacity-75 p-1 rounded-xl" style="font-family: 'Righteous', cursive;">Life skill</b>
+              </div>
+
+              <!--skill-->
+              <div class="bg-yellow-100 bg-opacity-75 rounded-xl p-2">
+                <img src="/picture/draw.png" class="w-20 h-20">
+                <p class="text-center text-xl" style="font-family: 'Righteous', cursive;">drawing</p>
+              </div>
+            </div>
+
+            <!--skill-->
+            <div class="bg-yellow-100 bg-opacity-75 rounded-xl p-2">
+              <img src="/picture/cooking.png" class="w-20 h-20 rounded-t-xl">
+              <p class="text-center text-xl" style="font-family: 'Righteous', cursive;">cooking</p>
+            </div>
+
+            <!--skill-->
+            <div class="bg-yellow-100 bg-opacity-75 rounded-xl p-2">
+              <img src="/picture/car.png" class="w-20 h-20 rounded-t-xl">
+              <p class="text-center text-xl" style="font-family: 'Righteous', cursive;">driving</p>
+            </div>
+
+            <!--skill-->
+            <div class="bg-yellow-100 bg-opacity-75 rounded-xl p-2">
+              <img src="/picture/motorcycle.png" class="w-20 h-20 rounded-t-xl">
+              <p class="text-center text-xl" style="font-family: 'Righteous', cursive;">driving</p>
+            </div>
+          </div>
+
+          <!--head skill-->
+          <div class="flex space-x-8">
+            <!--blank-->
+            <div class="flex space-x-16">
+              <div>
+                <b class="text-xl text-yellow-600 bg-yellow-100 bg-opacity-75 p-1 rounded-xl" style="font-family: 'Righteous', cursive;">Hobby</b>
+              </div>
+
+              <!--skill-->
+              <div class="bg-yellow-100 bg-opacity-75 rounded-xl p-2">
+                <img src="/picture/game.png" class="w-20 h-20">
+                <p class="text-center text-xl" style="font-family: 'Righteous', cursive;">playing game</p>
+              </div>
+            </div>
+
+            <!--skill-->
+            <div class="bg-yellow-100 bg-opacity-75 rounded-xl p-2">
+              <img src="/picture/book.png" class="w-20 h-20">
+              <p class="text-center text-xl" style="font-family: 'Righteous', cursive;">reading manga</p>
+            </div>
+
+            <!--skill-->
+            <div class="bg-yellow-100 bg-opacity-75 rounded-xl p-2">
+              <img src="/picture/tv.png" class="w-20 h-20">
+              <p class="text-center text-xl" style="font-family: 'Righteous', cursive;">watch movie</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
   </div>
 </body>
 
